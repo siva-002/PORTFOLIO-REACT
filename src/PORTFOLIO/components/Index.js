@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./css/index.css"
 import person from "./image/person.jpeg"
-
+import resume from "./documents/resume.pdf"
 
 const Index = () => {
     const [name,setname]=useState('')
@@ -43,8 +43,8 @@ const Index = () => {
                      {profession}{professiontype?(<span className='blink'></span>):""}
                     </span> 
 
-                    <span className='social-media'> 
-                        <div>  </div>
+                    <span className='resume-btn'> 
+                        <a href={resume} download><button className='btn btn-warning' >Resume</button></a> 
                     </span>
             </div>
            

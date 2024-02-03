@@ -3,7 +3,7 @@
     background-image: linear-gradient(to left, #DECBA4, #3E5151);
 
     min-height: 100vh;
-    
+    width: 100vw;
 }
 .homepage .container-fluid{
    
@@ -33,6 +33,11 @@
     color: rgb(8, 163, 168);
    
     
+}
+.homepage .container-fluid .col-container .col-first .resume-btn a{
+  
+   opacity: 0;
+   animation: resumebtn 0.1s 4s ease-in-out forwards;
 }
 .homepage .container-fluid .col-container .col-first{
     height: 200px;
@@ -65,6 +70,7 @@
     display: block;
     transition: all ease-in-out;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 .blink{
     margin-left: 20px;
@@ -79,3 +85,7 @@
     to{display: block;background-color: yellow;}
 }
 
+@keyframes resumebtn{
+    from{opacity: 0;transform: translateX(-200px);}
+    to{opacity: 1;transform: translateX(0);}
+}
