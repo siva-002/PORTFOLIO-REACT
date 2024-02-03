@@ -4,6 +4,7 @@ import Index from './components/Index'
 import Education from './components/Education'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.js'
 const Home = () => {
@@ -47,6 +48,7 @@ const Home = () => {
         <Education/>
         <Skills/>
         <Projects/>
+        <Contact/>
     </div>
   )
 }
