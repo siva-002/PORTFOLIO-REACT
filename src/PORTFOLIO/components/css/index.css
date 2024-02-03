@@ -1,0 +1,81 @@
+.homepage {
+
+    background-image: linear-gradient(to left, #DECBA4, #3E5151);
+
+    min-height: 100vh;
+    
+}
+.homepage .container-fluid{
+   
+   
+   
+
+}
+.homepage .container-fluid .col-container{
+    top:50%;
+    position: absolute;
+    transform: translate(0,-50%);
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+.homepage .container-fluid .col-container{
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    color: white;
+}
+.homepage .container-fluid .col-container .col-first .hi{
+    font-size: 4rem;
+    font-weight: 500;
+    color: rgb(8, 163, 168);
+   
+    
+}
+.homepage .container-fluid .col-container .col-first{
+    height: 200px;
+   min-width: 30vw;
+}
+.homepage .container-fluid .col-container .col-second{
+    
+    min-width: 30vw;
+}
+
+.homepage .container-fluid .col-container .col-second  img{
+    width: 300px ;
+    height: 300px;
+    border-radius: 100%;
+   box-shadow: 0px 0px 10px 10px white;
+}
+.homepage .container-fluid .col-container .col-second  img:hover{
+    cursor: pointer;
+ 
+    transition: all 0.2s ease-in-out;
+}
+.homepage .name{
+    font-size:3rem;
+    display: block;
+    transition: all ease-in-out;
+   
+}
+.homepage .profession{
+    font-size: 2rem;
+    display: block;
+    transition: all ease-in-out;
+    font-weight: 500;
+}
+.blink{
+    margin-left: 20px;
+    width: 10px;
+    padding: 2px;
+    height: 50px;
+    background: white;
+    animation: blinkanim 0.1s infinite ease-in-out;
+}
+@keyframes blinkanim{
+    from{display: none;background-color: violet};
+    to{display: block;background-color: yellow;}
+}
+

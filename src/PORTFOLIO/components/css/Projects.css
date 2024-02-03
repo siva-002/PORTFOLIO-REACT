@@ -1,0 +1,67 @@
+.projects{
+    padding: 40px 0;
+    min-height: 50vh;
+
+}
+.projects .container{
+    
+}
+.projects .projects-con{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+flex-wrap: wrap;
+  padding: 10px;
+    gap: 20px;
+}
+
+.projects .projects-con  .project-item{
+
+  height: 300px;
+  width: 300px;
+  box-shadow: 5px 5px 10px 0px black;
+  position: relative;
+ 
+}
+.projects .projects-con  .project-item .project-head{
+    display: block;
+    text-align: center;
+    background: grey;
+    color: white;
+}
+.projects .projects-con  .project-item .project-title{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.projects .projects-con  .project-item .project-description{
+ position: absolute;
+ top: 150px;
+ margin: 0 20px 0 40px;
+}
+.projects .projects-con  .project-item .project-description a{
+    margin: 10px 0 0 0;
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    height: max-content;
+    width: max-content;
+    padding: 5px;
+    background-color: paleturquoise;
+    border-radius: 40px;
+}
+.projects .projects-con  .project-item:hover{
+    cursor: pointer;
+}
+.projects .projects-con  .project-item .project-description .progress{
+    font-size: 1rem;
+    height: max-content;
+    width: max-content;
+    padding: 5px;
+    background-color: yellow;
+    font-weight: 500;
+    border-radius: 40px;
+}

@@ -1,0 +1,64 @@
+.education{
+    height: 100vh;
+  width: 100vw;   
+   
+}
+.education .container{
+    padding: 50px 0;
+}
+.edu-details{
+    margin-top: 3%;
+}
+ .head{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.head span span{
+    font-weight: 800;
+    font-size: 3rem;
+    
+}
+.education .tab-content div table tr td,.education .tab-content div table tr th{
+    padding: 5px;
+}
+.education .tab-content div table{
+    margin: 0 200px;
+    /* box-shadow: 0px 0px 10px 0px black; */
+}
+.education .tab-content table {
+        min-width: 40vw;
+}
+.education .tab-content .tab-pane {
+    margin-top: 5%;
+  
+ 
+}
+.education .nav-tabs{
+    width: 300px;
+    border: none;
+}
+.eduslideanim{
+   animation: educationslide 1s ease-in-out;
+    
+}
+.eduinfoanim{
+    animation: educationinfoslide 1s ease-in-out;
+}
+.eduimage img{
+    width: 500px;
+    height: 400px;
+}
+.education .tab-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@keyframes educationslide{
+    from{transform: translateY(500px);opacity:0;}
+    to{transform: translateY(0px);opacity:1;}
+}
+@keyframes educationinfoslide{
+    from{transform: translateX(-1000px);}
+    to{transform: translateX(0px);}
+}
