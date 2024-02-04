@@ -1,13 +1,15 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from './components/Navbar'
 import Index from './components/Index'
 import Education from './components/Education'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Loader from './components/Loader'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.js'
 const Home = () => {
+  const [load,setload]=useState(true)
   useEffect(()=>{
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
@@ -38,17 +40,30 @@ const Home = () => {
                   behavior: 'smooth'
               })
           }
-      });
-  });
+      })      
   })
+
+  })
+  useEffect(()=>{
+    setTimeout(()=>{
+      setload(false)
+    },2000)
+
+    
+  },[])
   return (
+    
     <div className=''>
+      {(!load)?(
+        <div className="main">
         <Navbar/>
         <Index/>
         <Education/>
         <Skills/>
         <Projects/>
         <Contact/>
+        </div>
+      ):(<Loader/>)}
     </div>
   )
 }
