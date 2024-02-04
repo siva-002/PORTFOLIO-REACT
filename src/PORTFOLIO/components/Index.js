@@ -33,7 +33,7 @@ const Index = () => {
     },[name,profession])
   return (
     <div className='homepage' id="home">
-        <div className="container-fluid  ">
+        <div className="container-fluid ">
         <div className="col-container">
             <div className="col-first mt-lg-5">
                     <span className='name'><span className='hi'>Hi </span> 

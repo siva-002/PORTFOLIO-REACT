@@ -1,9 +1,9 @@
 .contact{
     background: black;
     display: flex;
-    justify-content: center;
-    min-height: 20vh;
-    width: 100vw;
+    justify-content: space-between;
+    min-height: 15vh;
+   
     color: WHITE;
 }
 .contact .socialmedia{
@@ -12,16 +12,17 @@
     display: flex;
    
     flex-direction: column;
-    font-size: 3rem;
+    font-size: 25px;
    position: relative;
 }
 .contact .socialmedia span{
     margin-top: 20px;
-    font-size: 1.2rem;
+    font-size: 20px;
    
 }
 .contact .socialmedia .apps{
     display: flex;
+   
     gap: 20px;
 }
 
@@ -35,8 +36,9 @@
     color:green;
 }
 .contact  .email{
-    margin-top: 80px;
-}
+    margin: 80px 10px 0 0;
+    font-size: 12px;
+    }
 .contact  .email span{
    
 
@@ -46,3 +48,6 @@
     font-weight: 800;
 }
 .contact .socialmedia div div:hover{cursor: pointer;transform: scale(1.1);}
+.contact .socialmedia .contact-email{
+    font-size: 12px;
+}

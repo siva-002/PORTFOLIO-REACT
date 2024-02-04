@@ -6,12 +6,12 @@
    background: white;
     z-index:1;
 
-  width: 100vw;
+    width: 100vw;
     position: fixed !important;
    
 }
-.navbar .container{
-    
+.navbar .container-fluid{
+    /* margin: 0 40px; */
  
 }
 .navbar-brand .first{

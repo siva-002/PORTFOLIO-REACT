@@ -6,7 +6,7 @@
 
 /* min-height: 80vh; */
     color: white;
-
+    overflow-x: hidden;
 }
 .skills .container{
     padding: 50px 0;

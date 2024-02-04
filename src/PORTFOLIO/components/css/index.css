@@ -3,7 +3,8 @@
     background-image: linear-gradient(to left, #DECBA4, #3E5151);
 
     min-height: 100vh;
-    width: 100vw;
+  
+    overflow-x: hidden;
 }
 .homepage .container-fluid{
    

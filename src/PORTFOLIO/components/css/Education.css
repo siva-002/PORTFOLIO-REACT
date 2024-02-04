@@ -1,10 +1,11 @@
 .education{
-    height: 100vh;
-  width: 100vw;   
-   
+    min-height: 100vh;
+
+   overflow-x: hidden;
 }
 .education .container{
     padding: 50px 0;
+    max-width: 80vw;
 }
 .edu-details{
     margin-top: 3%;
