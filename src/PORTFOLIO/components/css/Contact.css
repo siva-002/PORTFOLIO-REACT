@@ -2,7 +2,7 @@
     background: black;
     display: flex;
     justify-content: space-between;
-    min-height: 15vh;
+    min-height: 12vh;
    
     color: WHITE;
 }
@@ -36,7 +36,7 @@
     color:green;
 }
 .contact  .email{
-    margin: 80px 10px 0 0;
+    margin: 70px 10px 0 0;
     font-size: 10px;
     }
 .contact  .email span{
