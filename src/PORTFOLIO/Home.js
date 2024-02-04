@@ -47,7 +47,7 @@ const Home = () => {
   useEffect(()=>{
     setTimeout(()=>{
       setload(false)
-    },2000)
+    },4000)
 
     
   },[])
