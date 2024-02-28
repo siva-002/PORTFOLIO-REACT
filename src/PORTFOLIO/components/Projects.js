@@ -24,7 +24,7 @@ const Projects = () => {
       head:"Other Project",
       title:"Chat App",
       description:"Building a Real-time Chat Application with React, Node.js, Express, and MongoDB",
-      link:""
+      link:"https://github.com/siva-002/Simple-Chat-App"
     },
   ])
 
