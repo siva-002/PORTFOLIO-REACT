@@ -11,7 +11,7 @@ const Index = () => {
     useEffect(()=>{
  
         const namevalue="I'm Sivakumar V"
-        const professionvalue="Aspiring Web Developer"
+        const professionvalue="Aspiring MERN Stack Developer"
       const typing=()=>{
         if(name.length<namevalue.length){
             setname(namevalue.substring(0,name.length+1))
