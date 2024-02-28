@@ -38,7 +38,7 @@
 .homepage .container-fluid .col-container .col-first .resume-btn a{
   
    opacity: 0;
-   animation: resumebtn 0.1s 4s ease-in-out forwards;
+   animation: resumebtn 0.1s 6s ease-in-out forwards;
 }
 .homepage .container-fluid .col-container .col-first{
     height: 200px;
