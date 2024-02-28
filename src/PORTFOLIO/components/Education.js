@@ -45,8 +45,8 @@ const Education = () => {
                         <tr><th>Name of the College</th><td className=''>Anna University Regional Campus</td></tr>
                         <tr><th>University</th><td className=''>Anna University</td></tr>              
                         <tr><th>Location</th><td className=''>Madurai</td></tr>
-                        <tr><th>CGPA</th><td className=''>7.92 <sub> / 10</sub> </td></tr>
-                        <tr><th>Year</th><td className=''>2021-2024</td></tr>
+                        <tr><th>CGPA</th><td className=''>7.94 / 10 (till 6th sem) </td></tr>
+                        <tr><th>Year</th><td className=''>2021-2024 </td></tr>
                        
                 </table>
   </div>
