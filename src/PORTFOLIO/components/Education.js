@@ -11,13 +11,15 @@ const Education = () => {
         <div className=' edu-details'>
 <nav>
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#degree">DEGREE</button>
+     <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#diploma">DIPLOMA</button>
     <button class="nav-link active"  data-bs-toggle="tab" data-bs-target="#sslc">SSLC</button>
-    <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#diploma">DIPLOMA</button>
-    <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#degree">DEGREE</button>
+   
+
   </div>
 </nav>
 <div class="tab-content" id="educationtab">
-        <div class="tab-pane fade show active eduinfoanim" id="sslc">
+        <div class="tab-pane fade show  eduinfoanim" id="sslc">
         <table className='table p-3 m-3'>
                         <tr><th>Name of the School</th><td className=''>Government Higher Secondary School</td></tr>
                         <tr><th>Board</th><td className=''>State Board of Secondary Education</td></tr>
@@ -38,7 +40,7 @@ const Education = () => {
                        
                 </table>
         </div>
-  <div class="tab-pane fade eduinfoanim" id="degree">
+  <div class="tab-pane fade show active eduinfoanim" id="degree">
             <table className='table m-3 '>
                         <tr><th>Name of the College</th><td className=''>Anna University Regional Campus</td></tr>
                         <tr><th>University</th><td className=''>Anna University</td></tr>              
