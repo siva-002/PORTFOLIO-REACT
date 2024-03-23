@@ -10,6 +10,7 @@ import mysql from "./image/mysql.png"
 import express from "./image/express.png"
 import bootstrap from "./image/bootstrap.png"
 import mongo from "./image/mongodb.png"
+import node from "./image/node-js.png"
 
 
 const Skills = () => {
@@ -19,7 +20,7 @@ const Skills = () => {
         {skill:"BOOTSTRAP",image:bootstrap},
         {skill:"JAVASCRIPT",image:js},
         {skill:"REACT JS",image:react},
-        {skill:"NODE JS",image:express},
+        {skill:"NODE JS",image:node},
         {skill:"EXPRESS JS",image:express},
         {skill:"MONGO DB",image:mongo},
         {skill:"MYSQL",image:mysql},
