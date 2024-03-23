@@ -19,6 +19,7 @@ const Skills = () => {
         {skill:"BOOTSTRAP",image:bootstrap},
         {skill:"JAVASCRIPT",image:js},
         {skill:"REACT JS",image:react},
+        {skill:"NODE JS",image:express},
         {skill:"EXPRESS JS",image:express},
         {skill:"MONGO DB",image:mongo},
         {skill:"MYSQL",image:mysql},
