@@ -37,11 +37,13 @@ const Projects = () => {
   ])
 
   return (
-    <motion.div id="projects" className='projects'
-    initial={{x:"100vw",opacity:0}}
-    animate={{x:0,opacity:1}}
+    <div id="projects" className='projects'
+
     >
-        <div className='container'>
+        <motion.div className='container'
+            initial={{x:"100vw",opacity:0}}
+            animate={{x:0,opacity:1}}
+        >
         <div className='row head'>
                     <span><span>P</span>rojects</span>
         </div>
@@ -60,8 +62,8 @@ const Projects = () => {
                 </div>
               </motion.div>
 ))}           </div>
-          </div>
-    </motion.div>
+          </motion.div>
+    </div>
   )
 }
 

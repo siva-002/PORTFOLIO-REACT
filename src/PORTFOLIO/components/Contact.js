@@ -5,13 +5,15 @@ import contact from "./image/contact.png"
 import { motion } from 'framer-motion'
 const Contact = () => {
   return (
-    <motion.div id="contact" className='contact'
-    initial={{x:"100vw"}}
-    animate={{x:0 }}
-    transition={{type:"spring",stiffness:"200"}}
+    <div id="contact" className='contact'
+  
     
     >
-         <div className='contact-con'>
+         <motion.div className='contact-con'
+           initial={{x:"100vw"}}
+           animate={{x:0 }}
+           transition={{type:"spring",stiffness:"200"}}
+         >
          <div className='socialmedia'>
 
               <span className='title'>Contact me </span>
@@ -35,8 +37,8 @@ const Contact = () => {
             <span> Developed By Sivakumar V</span> <br/>
            
          </div>
-         </div>
-    </motion.div>
+         </motion.div>
+    </div>
   )
 }
 
