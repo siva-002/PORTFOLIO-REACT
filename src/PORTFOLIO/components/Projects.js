@@ -38,8 +38,8 @@ const Projects = () => {
 
   return (
     <motion.div id="projects" className='projects'
-    initial={{x:"100vw"}}
-    animate={{x:0}}
+    initial={{x:"100vw",opacity:0}}
+    animate={{x:0,opacity:1}}
     >
         <div className='container'>
         <div className='row head'>
