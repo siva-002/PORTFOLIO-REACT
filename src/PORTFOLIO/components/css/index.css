@@ -13,9 +13,9 @@
 
 }
 .homepage .container-fluid .col-container{
-    top:50%;
+    /* top:50%;
     position: absolute;
-    transform: translate(0,-50%);
+    transform: translate(0,-50%); */
     width: 80vw;
     display: flex;
     justify-content: space-between;
@@ -38,7 +38,7 @@
 .homepage .container-fluid .col-container .col-first .resume-btn a{
   
    opacity: 0;
-   animation: resumebtn 0.1s 6s ease-in-out forwards;
+   animation: resumebtn 0.1s 6s linear forwards;
 }
 .homepage .container-fluid .col-container .col-first{
     height: 200px;
@@ -79,14 +79,14 @@
     padding: 2px;
     height: 50px;
     background: white;
-    animation: blinkanim 0.1s infinite ease-in-out;
+    animation: blinkanim 0.2s infinite linear;
 }
 @keyframes blinkanim{
-    from{display: none;background-color: violet};
-    to{display: block;background-color: yellow;}
+    from{opacity: 0;background: white;}
+    to{opacity: 1;background: white;}
 }
 
 @keyframes resumebtn{
-    from{opacity: 0;transform: translateX(-200px);}
-    to{opacity: 1;transform: translateX(0);}
+    from{opacity: 0; }
+    to{opacity: 1;}
 }

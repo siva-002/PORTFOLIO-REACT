@@ -1,5 +1,7 @@
 .projects{
+   
     padding: 40px 0;
+    padding-top: 100px;
     min-height: 50vh;
 overflow-x: hidden;
 }
@@ -20,21 +22,28 @@ flex-wrap: wrap;
 
   height: 300px;
   width: 300px;
-  box-shadow: 5px 5px 10px 0px black;
+  box-shadow: 5px 5px 10px lightgrey;
   position: relative;
+  border-radius: 10px;
+  
  
 }
 .projects .projects-con  .project-item .project-head{
     display: block;
     text-align: center;
-    background: grey;
-    color: white;
+    background:rgba(0,0,0,0.2);
+    line-height: 50px;
+    color:darkblue;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 .projects .projects-con  .project-item .project-title{
     padding: 10px;
     display: block;
     text-align: center;
     font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 2px;
 }
 .projects .projects-con  .project-item .project-description{
  position: absolute;

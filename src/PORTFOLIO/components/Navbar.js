@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './css/Navbar.css'
-import Scrollspy from "react-scrollspy"
+import { Link, useLocation } from 'react-router-dom'
+
 const Navbar = () => {
+  const location=useLocation()
+  const [page,setpage]=useState()
+  useEffect(()=>{
+    const active=location.pathname.replace("/",'')
+    setpage(active)
+  },[location])
   return (
     <div>
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -13,28 +20,33 @@ const Navbar = () => {
    
     <div className="offcanvas offcanvas-start" id="navbarLink">
    
-    <Scrollspy items={['home','education']} className="navbar-nav offcanvas-body ms-lg-auto">
+    <ul className="navbar-nav offcanvas-body ms-lg-auto">
       <div className='offcanvas-header ms-auto'>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
     
         <li className="nav-item p-2 ">
-          <a className="nav-link " href="#home">HOME</a>
+          <Link to="/"><span className={page==""?"active nav-link":"nav-link" }>HOME</span></Link>
+          
         </li>
         <li className="nav-item p-2">
-          <a className="nav-link" href="#education">EDUCATION</a>
+          <Link to="/education">  <span className={page=="education"?"active nav-link":"nav-link" }>EDUCATION</span></Link>
+        
         </li>
         <li className="nav-item p-2">
-          <a className="nav-link" href="#skills">SKILLS</a>
+        <Link to="/skills"> <span className={page=="skills"?"active nav-link":"nav-link" } >SKILLS</span></Link>
+         
         </li>
         <li className="nav-item p-2">
-          <a className="nav-link" href="#projects">PROJECTS</a>
+        <Link to="/projects"> <span className={page=="projects"?"active nav-link":"nav-link" } >PROJECTS</span></Link>
+         
         </li>
         <li className="nav-item p-2">
-          <a className="nav-link" href="#contact">CONTACT</a>
+        <Link to="/contact">  <span className={page=="contact"?"active nav-link":"nav-link" }>CONTACT</span></Link>
+        
         </li>
       
-        </Scrollspy>
+        </ul>
     
     </div>  
   </div>

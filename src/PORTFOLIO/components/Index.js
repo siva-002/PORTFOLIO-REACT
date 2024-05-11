@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./css/index.css"
 import person from "./image/person.jpeg"
 import resume from "./documents/resume.pdf"
-
+import { motion } from 'framer-motion'
 const Index = () => {
     const [name,setname]=useState('')
     const [profession,setprofession]=useState('')
@@ -32,9 +32,16 @@ const Index = () => {
      
     },[name,profession])
   return (
-    <div className='homepage' id="home">
-        <div className="container-fluid ">
-        <div className="col-container">
+    <div className='homepage' id="home"
+
+    >
+        <div className="container-fluid "
+           
+        >
+        <motion.div className="col-container"
+         initial={{x:"100vw",opacity:0}}
+         animate={{x:0,opacity:1,paddingTop:"25vh"}}
+        >
             <div className="col-first mt-lg-5">
                     <span className='name'><span className='hi'>Hi </span> 
                        {name} {nametype?(<span className='blink'></span>):""}
@@ -44,7 +51,12 @@ const Index = () => {
                     </span> 
 
                     <span className='resume-btn'> 
-                        <a href={resume} download><button className='btn btn-warning' >Resume</button></a> 
+                        <a href={resume} download="myresume.pdf" ><motion.button className='btn btn-primary' 
+                      
+                        whileTap={{scale:"0.9"}}
+                        whileHover={{scale:"1.1"}}
+                        
+                        >Resume</motion.button></a> 
                     </span>
             </div>
            
@@ -53,7 +65,7 @@ const Index = () => {
              <img className='d-none d-lg-block' src={person} />
          
             </div>
-        </div>
+        </motion.div>
         </div>
         </div>
   )

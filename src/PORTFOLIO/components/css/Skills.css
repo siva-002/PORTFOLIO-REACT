@@ -5,14 +5,15 @@
     background-image: linear-gradient(to right, #DECBA4, #3E5151);
 
 /* min-height: 80vh; */
+    padding-top: 50px;
     color: white;
     overflow-x: hidden;
+    min-height: 100vh;
 }
 .skills .container{
     padding: 50px 0;
 }
-.skills .skillinfo{
-   
+.skills .skillinfo{   
     margin-top: 20px;
 }
 .skills .skillinfo .skill-det{
@@ -50,44 +51,59 @@ display: flex;
     padding-bottom: 40px;
 }
 .skills .skillinfo .skill-det:hover{
-    transform: scale(1.01);
+    /* transform: scale(1.01); */
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    /* transition: all 0.2s ease-in-out; */
 }
 .skills .skillinfo .skill-det{
+    width: 280px;
     opacity: 0;
+    position: relative;
+}
+.skills .skillinfo .skill-det .skill-percent{
+    right: 10px;
+    top: 10px;
+    position: absolute;
 }
 .skills .skillinfo .skill-det:first-child{
  
-    animation: skillanim 1s  ease-in-out forwards;
+    animation: skillanim 1s  linear forwards;
 }
 .skills .skillinfo .skill-det:nth-child(2){
  
-    animation: skillanim 1s 0.1s 1 ease-in-out forwards;
+    animation: skillanim 1s 0.1s 1 linear forwards;
 }
 .skills .skillinfo .skill-det:nth-child(3){
  
-    animation: skillanim 1s 0.2s 1 ease-in-out forwards;
+    animation: skillanim 1s 0.2s 1 linear forwards;
 }
 .skills .skillinfo .skill-det:nth-child(4){
  
-    animation: skillanim 1s 0.3s 1 ease-in-out forwards;
+    animation: skillanim 1s 0.3s 1 linear forwards;
 }
 .skills .skillinfo .skill-det:nth-child(5){
  
-    animation: skillanim 1s 0.4s 1 ease-in-out forwards;
+    animation: skillanim 1s 0.4s 1 linear forwards;
 }
 .skills .skillinfo .skill-det:nth-child(6){
  
-    animation: skillanim 1s 0.5s 1 ease-in-out forwards;
+    animation: skillanim 1s 0.5s 1 linear forwards;
 }
 .skills .skillinfo .skill-det:nth-child(7){
  
-    animation: skillanim 1s 0.6s 1 ease-in-out forwards;
+    animation: skillanim 1s 0.6s 1 linear forwards;
 }
 .skills .skillinfo .skill-det:nth-child(8){
  
-    animation: skillanim 1s 0.7s 1 ease-in-out forwards;
+    animation: skillanim 1s 0.7s 1 linear forwards;
+}
+.skills .skillinfo .skill-det:nth-child(9){
+ 
+    animation: skillanim 1s 0.8s 1 linear forwards;
+}
+.skills .skillinfo .skill-det:nth-child(10){
+ 
+    animation: skillanim 1s 0.9s 1 linear forwards;
 }
  
 @keyframes skillanim{
