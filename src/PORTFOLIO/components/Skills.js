@@ -31,10 +31,20 @@ const Skills = () => {
     <div className='skills' id="skills"
   
     // exit={{x:"-100vw"}}
+<<<<<<< HEAD
     >
         <motion.div className='container'
           initial={{x:"100vw"}}
           animate={{x:0}}
+=======
+    initial={{x:"100vw",opactity:0}}
+    animate={{x:0,opacity:1}}
+    transition={{delay:0.3}}
+    exit={{x:"-100vw",opacity:0}}
+    >
+        <motion.div className='container'
+        
+>>>>>>> 0d5f10f (up)
         >
         <div className='row head'>
                     <span><span>S</span>kills</span>

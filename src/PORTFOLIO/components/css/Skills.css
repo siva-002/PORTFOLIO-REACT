@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .skills{
   
     /* background-image: linear-gradient(to left, #DECBA4,#DECBA4); */
@@ -111,3 +112,116 @@ display: flex;
     to{opacity: 1;}
 }
  
+=======
+.skills{
+  
+    /* background-image: linear-gradient(to left, #DECBA4,#DECBA4); */
+
+/* min-height: 80vh; */
+    padding-top: 50px;
+    color: white;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+.skills .container{
+    padding: 50px 0;
+}
+.skills .skillinfo{   
+    margin-top: 20px;
+}
+.skills .skillinfo .skill-det{
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px white;
+    border-radius: 20px;
+    min-width: 200px;
+    background-image: linear-gradient(to right, #141e30, #243b55);
+
+    /* background-image: linear-gradient(to right, #5a3f37, #2c7744); */
+display: flex;
+
+
+}
+.skills .skillinfo .skill-det .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    font-size: 1.1rem;
+   
+}
+.skills .skillinfo .skill-det img{
+    width: 100px;
+    height: 100px;
+    transform: scale(0.7);
+    transition: all 0.2s ease-in-out;
+}
+.skillinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    padding-bottom: 40px;
+}
+.skills .skillinfo .skill-det:hover{
+    /* transform: scale(1.01); */
+    cursor: pointer;
+    /* transition: all 0.2s ease-in-out; */
+}
+.skills .skillinfo .skill-det{
+    width: 280px;
+    opacity: 0;
+    position: relative;
+}
+.skills .skillinfo .skill-det .skill-percent{
+    right: 10px;
+    top: 10px;
+    position: absolute;
+}
+.skills .skillinfo .skill-det:first-child{
+ 
+    animation: skillanim 1s  linear forwards;
+}
+.skills .skillinfo .skill-det:nth-child(2){
+ 
+    animation: skillanim 1s 0.1s 1 linear forwards;
+}
+.skills .skillinfo .skill-det:nth-child(3){
+ 
+    animation: skillanim 1s 0.2s 1 linear forwards;
+}
+.skills .skillinfo .skill-det:nth-child(4){
+ 
+    animation: skillanim 1s 0.3s 1 linear forwards;
+}
+.skills .skillinfo .skill-det:nth-child(5){
+ 
+    animation: skillanim 1s 0.4s 1 linear forwards;
+}
+.skills .skillinfo .skill-det:nth-child(6){
+ 
+    animation: skillanim 1s 0.5s 1 linear forwards;
+}
+.skills .skillinfo .skill-det:nth-child(7){
+ 
+    animation: skillanim 1s 0.6s 1 linear forwards;
+}
+.skills .skillinfo .skill-det:nth-child(8){
+ 
+    animation: skillanim 1s 0.7s 1 linear forwards;
+}
+.skills .skillinfo .skill-det:nth-child(9){
+ 
+    animation: skillanim 1s 0.8s 1 linear forwards;
+}
+.skills .skillinfo .skill-det:nth-child(10){
+ 
+    animation: skillanim 1s 0.9s 1 linear forwards;
+}
+ 
+@keyframes skillanim{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+ 
+>>>>>>> 0d5f10f (up)
