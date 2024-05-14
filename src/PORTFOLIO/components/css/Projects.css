@@ -75,3 +75,11 @@ flex-wrap: wrap;
     font-weight: 500;
     border-radius: 40px;
 }
+.projects .projects-con  .project-item .project-description .output-details{
+    display: flex;
+    gap: 20px;
+}
+.projects .projects-con  .project-item .project-description .output-details .output{
+    background-color: lightgreen;
+    color: brown;
+}
