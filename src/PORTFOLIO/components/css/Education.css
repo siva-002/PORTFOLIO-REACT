@@ -58,6 +58,16 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.edu-details .nav-tabs .nav-link {
+    color: white !important;
+    border: none !important;
+}
+.edu-details .nav-tabs .active{
+    background: none !important;
+    border: none !important;
+    color: pink !important;
+    border-bottom: 2px solid pink !important;
+}
 @keyframes educationslide{
     from{transform: translateY(500px);opacity:0;}
     to{transform: translateY(0px);opacity:1;}
