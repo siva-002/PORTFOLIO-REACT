@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .projects{
    
     padding: 40px 0;
@@ -74,4 +75,97 @@ flex-wrap: wrap;
     background-color: yellow;
     font-weight: 500;
     border-radius: 40px;
+=======
+.projects{
+   
+    padding: 40px 0;
+    padding-top: 100px;
+    min-height: 50vh;
+color: white;
+overflow-x: hidden;
+}
+.projects .container{
+    
+}
+.projects .head{
+    color: white;
+}
+.projects .projects-con{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+flex-wrap: wrap;
+  padding: 10px;
+    gap: 20px;
+}
+
+.projects .projects-con  .project-item{
+
+  min-height: 300px;
+  /* max-height: 500px; */
+  width: 300px;
+  box-shadow: 0px 0px 10px lightgrey;
+  position: relative;
+  border-radius: 10px;
+  
+ 
+}
+.projects .projects-con  .project-item .project-head{
+    display: block;
+    text-align: center;
+    background:rgba(0,0,0,0.2);
+    line-height: 50px;
+    color:darkturquoise;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.projects .projects-con  .project-item .project-title{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.projects .projects-con  .project-item .project-description{
+ /* position: absolute;
+ top: 200px; */
+ 
+ margin: 40px 20px 10px 40px;
+}
+.projects .projects-con  .project-item .project-description .output-details{
+    display: flex;
+    gap: 20px;
+}
+
+.projects .projects-con  .project-item .project-description a{
+    margin: 10px 0 0 0;
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    height: max-content;
+    width: max-content;
+    padding: 5px;
+    background-color: paleturquoise;
+    border-radius: 40px;
+    color: darkblue;
+}
+.projects .projects-con  .project-item .project-description .output-details .output{
+    background-color: lightgreen;
+    color: brown;
+}
+.projects .projects-con  .project-item:hover{
+    cursor: pointer;
+}
+.projects .projects-con  .project-item .project-description .progress{
+    font-size: 1rem;
+    height: max-content;
+    width: max-content;
+    padding: 5px;
+    background-color: yellow;
+    font-weight: 500;
+    border-radius: 40px;
+>>>>>>> 0d5f10f (up)
 }

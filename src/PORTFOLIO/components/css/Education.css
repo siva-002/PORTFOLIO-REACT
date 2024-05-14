@@ -2,6 +2,20 @@
 /*     min-height: 100vh; */
     padding-top: 50px;
    overflow-x: hidden;
+<<<<<<< HEAD
+=======
+   color: white;
+}
+.edu-details .nav-tabs .nav-link {
+    color: white !important;
+    border: none !important;
+}
+.edu-details .nav-tabs .active{
+    background: none !important;
+    border: none !important;
+    color: pink !important;
+    border-bottom: 2px solid pink !important;
+>>>>>>> 0d5f10f (up)
 }
 .education .container{
     padding: 50px 0;
@@ -23,10 +37,20 @@
 .education .tab-content div table tr td,.education .tab-content div table tr th{
     padding: 10px;
     border: none;
+<<<<<<< HEAD
 }
 .education .tab-content div table{
     margin: 0 200px;
    
+=======
+    background: transparent !important;
+    color: white;
+}
+.education .tab-content div table{
+    max-width: 300px;
+    margin: 0 200px;
+   background: transparent !important;
+>>>>>>> 0d5f10f (up)
     /* box-shadow: 0px 0px 10px 0px black; */
 }
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .animation{
     /* background-image: linear-gradient(to right, #b6fbff, #83a4d4);
     background-image: linear-gradient(to right,#fffde4, #fffde4); */
@@ -52,4 +53,60 @@ display: flex;
 @keyframes fadein{
     from{opacity: 0;}
     to{opacity: 1;}
+=======
+.animation{
+    /* background-image: linear-gradient(to right, #b6fbff, #83a4d4);
+    background-image: linear-gradient(to right,#fffde4, #fffde4); */
+
+
+
+height: 100vh;
+width: 100vw;
+}
+.animation .con{
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+display: flex;
+
+}
+.animation .con div{
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 40px;
+    background: green;
+    transition: all 3s ease;
+}
+.animation .con div:first-child{
+    background: orange;
+    animation: moveup 1s  infinite ease forwards;
+}
+.animation .con div:nth-child(2){
+    background-image: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+
+
+    animation: moveup 1s 0.1s infinite ease forwards;
+}
+.animation .con div:nth-child(3){
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+
+    animation: moveup 1s 0.2s infinite ease forwards;
+}
+.animation .con div:nth-child(4){
+    background-image: linear-gradient(to right, #00b09b, #96c93d);
+
+    animation: moveup 1s 0.3s infinite ease forwards;
+}
+.main{
+    animation:fadein 3s  ease ;
+}
+@keyframes moveup{
+    from{transform: translateY(-10px);}
+    to{transform: translateY(10px);}
+}
+@keyframes fadein{
+    from{opacity: 0;}
+    to{opacity: 1;}
+>>>>>>> 0d5f10f (up)
 }

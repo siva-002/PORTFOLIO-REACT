@@ -1,6 +1,9 @@
 .homepage {
 
+<<<<<<< HEAD
     background-image: linear-gradient(to left, #DECBA4, #3E5151);
+=======
+>>>>>>> 0d5f10f (up)
 
     min-height: 100vh;
   
@@ -35,10 +38,28 @@
    
     
 }
+<<<<<<< HEAD
 .homepage .container-fluid .col-container .col-first .resume-btn a{
   
    opacity: 0;
    animation: resumebtn 0.1s 6s linear forwards;
+=======
+.homepage .container-fluid .col-container .col-first .resume-btn a button{
+  padding: 10px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 800;
+  color: darkorange;
+  box-shadow: 0px 0px 10px #fff;
+}
+
+.homepage .container-fluid .col-container .col-first .resume-btn a{
+   
+   opacity: 0;
+   animation: resumebtn 0.1s 6s linear forwards;
+  
+>>>>>>> 0d5f10f (up)
 }
 .homepage .container-fluid .col-container .col-first{
     height: 200px;
