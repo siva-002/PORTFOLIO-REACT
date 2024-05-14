@@ -51,7 +51,7 @@ const Index = () => {
                     </span> 
 
                     <span className='resume-btn'> 
-                        <a href={resume} download="myresume.pdf" ><motion.button className='btn btn-primary' 
+                        <a href={resume} download="myresume.pdf" ><motion.button className='' 
                       
                         whileTap={{scale:"0.9"}}
                         whileHover={{scale:"1.1"}}
