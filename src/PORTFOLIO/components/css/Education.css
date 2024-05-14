@@ -32,6 +32,7 @@
 
 .education .tab-content table {
         min-width: 40vw;
+    max-width:300px;
 }
 .education .tab-content .tab-pane {
     margin-top: 5%;
