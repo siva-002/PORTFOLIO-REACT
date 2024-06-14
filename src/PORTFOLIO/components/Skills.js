@@ -22,9 +22,9 @@ const Skills = () => {
         {skill:"REACT JS",image:react,status:"Intermediate"},
         {skill:"PHP",image:php,status:"Intermediate"},
         {skill:"MYSQL",image:mysql,status:"Intermediate"},
-        {skill:"NODE JS",image:node,status:"Beginner"},
-        {skill:"EXPRESS JS",image:express,status:"Beginner"},
-        {skill:"MONGO DB",image:mongo,status:"Beginner"},
+        {skill:"NODE JS",image:node,status:"Intermediate"},
+        {skill:"EXPRESS JS",image:express,status:"Intermediate"},
+        {skill:"MONGO DB",image:mongo,status:"Intermediate"},
       
     ])
   return (
