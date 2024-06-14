@@ -81,7 +81,7 @@
   font-weight: 800;
     letter-spacing:2px;
     color:white;
- /* box-shadow: 0px 0px 10px #fff;*/
+  box-shadow: 0px 0px 10px purple;
 }
 .blink{
     margin-left: 20px;
