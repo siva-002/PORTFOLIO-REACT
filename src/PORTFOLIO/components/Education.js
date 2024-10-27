@@ -120,7 +120,7 @@ const Education = () => {
                 </tr>
                 <tr>
                   <th>CGPA</th>
-                  <td className="">7.94 / 10 (till 7th sem) </td>
+                  <td className="">7.9 / 10  </td>
                 </tr>
                 <tr>
                   <th>Year</th>
