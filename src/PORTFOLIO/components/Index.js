@@ -50,14 +50,14 @@ const Index = () => {
                      {profession}{professiontype?(<span className='blink'></span>):""}
                     </span> 
 
-                    <span className='resume-btn'> 
+                       {/* <span className='resume-btn'> 
                         <a href={resume} download="myresume.pdf" ><motion.button className='' 
                       
                         whileTap={{scale:"0.9"}}
                         whileHover={{scale:"1.1"}}
                         
                         >Resume</motion.button></a> 
-                    </span>
+                    </span>*/}
             </div>
            
             <div className="col-second">
