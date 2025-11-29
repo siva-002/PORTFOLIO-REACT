@@ -62,7 +62,7 @@ const Index = () => {
            
             <div className="col-second">
                 
-             <img className='d-none d-lg-block' src={person} />
+                       {/* <img className='d-none d-lg-block' src={person} />*/}
          
             </div>
         </motion.div>
